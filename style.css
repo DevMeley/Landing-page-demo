@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-image: url("header.jpg") ;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    
+}
+.navbar{
+    background-color: rgb(1, 1, 249);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 80px;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: palevioletred;
+}
+
+button{
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: palevioletred;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hero h1{
+    padding-bottom: 20px;
+}
+.hero p{
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.hero button {
+    width: 180px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: palevioletred;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.body{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.box{
+    width: 250px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding-top: 20px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer p a{
+    color: white;
+}
